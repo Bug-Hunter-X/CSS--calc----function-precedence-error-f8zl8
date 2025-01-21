@@ -1,0 +1,7 @@
+The following CSS code snippet demonstrates an uncommon error involving the usage of the `calc()` function with percentages and incorrect operator precedence.  The intent is to calculate a width of 70% of the parent container, minus 20px. However, due to operator precedence, the subtraction happens *before* the percentage calculation, leading to unexpected results. 
+
+```css
+div {
+  width: calc(70% - 20px);
+}
+```
