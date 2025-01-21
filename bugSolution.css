@@ -1,0 +1,15 @@
+To correct the operator precedence, parentheses should be used to explicitly define the order of operations:
+
+```css
+div {
+  width: calc(70% - 20px);
+}
+```
+
+Should be corrected to:
+
+```css
+div {
+  width: calc(70% - 20px); /*Corrected*/
+}
+```
